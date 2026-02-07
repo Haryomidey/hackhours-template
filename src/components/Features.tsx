@@ -49,7 +49,7 @@ const Features: React.FC = () => {
           <h2 className="text-accent font-semibold tracking-wider uppercase text-sm mb-4">Core Capabilities</h2>
           <h3 className="text-4xl md:text-5xl font-bold mb-6">Designed for Devs. Built for Privacy.</h3>
           <p className="text-gray-400 text-lg">
-            WakaTime features without the subscription or the data harvesting. Everything stays local.
+            WakaTime features without the subscription. Everything stays local.
           </p>
         </div>
 
