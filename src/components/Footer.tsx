@@ -21,13 +21,13 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-            <a href="#" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
+            <a href="https://github.com/Haryomidey" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
               <Github size={20} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
+            <a href="#" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
               <Twitter size={20} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
+            <a href="#" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
               <Globe size={20} />
             </a>
           </div>
