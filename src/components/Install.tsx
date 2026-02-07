@@ -15,7 +15,7 @@ const Install: React.FC = () => {
   return (
     <section className="py-24 relative">
       <div className="container mx-auto px-6 text-center">
-        <div className="max-w-3xl mx-auto glass-card rounded-3xl p-12 border-accent/20 overflow-hidden relative">
+        <div className="max-w-3xl mx-auto glass-card rounded-3xl p-8 sm:p-12 border-accent/20 overflow-hidden relative">
           <h2 className="text-4xl font-bold mb-6">Ready to track?</h2>
           <p className="text-gray-400 mb-10 text-lg">
             Join thousands of developers who track their time with total privacy. 
