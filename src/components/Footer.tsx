@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600 font-medium">
           <div>© {new Date().getFullYear()} HackHours. All rights reserved.</div>
-          <div>Built with precision for the modern developer. MIT License.</div>
+          <div>Built with precision for the modern developer.</div>
         </div>
       </div>
     </footer>
