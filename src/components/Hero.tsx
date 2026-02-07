@@ -39,14 +39,19 @@ const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-              <button className="w-full sm:w-auto bg-accent hover:bg-accent-hover px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 group transition-all">
-                Install with npm
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </button>
-              <button className="w-full sm:w-auto glass-card hover:bg-white/5 px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
-                <Github size={18} />
-                Star on GitHub
-              </button>
+              <a href="https://www.npmjs.com/package/hackhours" target="_blank">
+                <button className="w-full sm:w-auto bg-accent hover:bg-accent-hover px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 group transition-all">
+                  Install with npm
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </button>
+              </a>
+
+              <a href="https://github.com/Haryomidey/hackhours" target="_blank">
+                <button className="w-full sm:w-auto glass-card hover:bg-white/5 px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 transition-all">
+                  <Github size={18} />
+                  Star on GitHub
+                </button>
+              </a>
             </div>
             
             <div className="mt-12 flex items-center justify-center lg:justify-start space-x-8 text-gray-500 text-sm">
