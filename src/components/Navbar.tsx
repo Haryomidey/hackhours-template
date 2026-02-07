@@ -54,15 +54,17 @@ const Navbar: React.FC = () => {
 
         <div className="hidden md:flex items-center space-x-4">
           <a 
-            href="https://github.com" 
+            href="https://github.com/Haryomidey/hackhours" 
             target="_blank" 
             className="text-gray-400 hover:text-white transition-colors"
           >
             <Github size={20} />
           </a>
-          <button className="bg-accent hover:bg-accent-hover px-5 py-2 rounded-full text-sm font-semibold transition-all">
-            Get Started
-          </button>
+          <a href="https://www.npmjs.com/package/hackhours" target="_blank">
+            <button className="bg-accent hover:bg-accent-hover px-5 py-2 rounded-full text-sm font-semibold transition-all">
+              Get Started
+            </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
