@@ -15,9 +15,9 @@ const Footer: React.FC = () => {
 
           <div className="flex items-center space-x-8">
             <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Documentation</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Changelog</a>
-            <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Status</a>
+            {/* <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Privacy Policy</a> */}
+            {/* <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Changelog</a> */}
+            {/* <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">Status</a> */}
           </div>
 
           <div className="flex items-center space-x-4">
