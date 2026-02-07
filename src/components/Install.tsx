@@ -51,7 +51,7 @@ const Install: React.FC = () => {
         </div>
         
         {/* Testimonials */}
-        <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        {/* <div className="mt-24 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {[
             {
               quote: "Finally a time tracker that respects my privacy. No cloud syncing, just raw data on my disk where it belongs.",
@@ -82,7 +82,7 @@ const Install: React.FC = () => {
               </div>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
