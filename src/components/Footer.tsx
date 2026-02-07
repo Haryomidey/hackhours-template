@@ -24,10 +24,10 @@ const Footer: React.FC = () => {
             <a href="https://github.com/Haryomidey" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
               <Github size={20} />
             </a>
-            <a href="#" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
+            <a href="https://x.com/ayotech11" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
               <Twitter size={20} />
             </a>
-            <a href="#" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
+            <a href="https://oladiipoayomide.dev" target="_blank" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-gray-400 hover:text-white hover:bg-white/5 transition-all">
               <Globe size={20} />
             </a>
           </div>
