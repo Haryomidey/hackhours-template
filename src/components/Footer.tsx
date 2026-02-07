@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Terminal, Github, Twitter, Globe } from 'lucide-react';
 

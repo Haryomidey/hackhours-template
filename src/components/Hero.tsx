@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Play, ArrowRight, ShieldCheck, Cpu, Globe } from 'lucide-react';
+import { Github, ArrowRight, ShieldCheck, Cpu, Globe } from 'lucide-react';
 import TerminalBlock from './TerminalBlock';
 
 const Hero: React.FC = () => {

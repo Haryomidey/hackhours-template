@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Shield, Database, BarChart3, Clock, Zap, Cpu } from 'lucide-react';
 import FeatureCard from './FeatureCard';
